@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Filter Option -->
+         <h1>Cat Photo App</h1>
+        <div class="filter-buttons">
+            <button class="active" data-name="all">Show all</button>
+            <button data-name="Persian-Cats">Persian Cats</button>
+            <button data-name="Himalayan-Cats">Himalayan Cats</button>
+        </div>
+    </div>
+    <div class="filterable-cards">
+        <div class="card" data-name="Persian-Cats">
+            <img src="cat1.jpg" alt="Image 1" class="gallery-item">
+            <div class="card-body">
+                <h6 class="card-title">Persian Cat</h6>
+                <p>Lorem ipsum, dolor...</p>
+            </div>
+        </div>
+        <div class="card" data-name="Persian-Cats">
+            <img src="per7.jpg" alt="Image 1" class="gallery-item">
+            <div class="card-body">
+                <h6 class="card-title">Persian Cat</h6>
+                <p>Lorem ipsum, dolor...</p>
+            </div>
+        </div>
+        <div class="card" data-name="Persian-Cats">
+            <img src="per9.jpg" alt="Image 1" class="gallery-item">
+            <div class="card-body">
+                <h6 class="card-title">Persian Cat</h6>
+                <p>Lorem ipsum, dolor...</p>
+            </div>
+        </div>
+        <div class="card" data-name="Himalayan-Cats">
+            <img src="hama1.jpg" alt="Image 1" class="gallery-item">
+            <div class="card-body">
+                <h6 class="card-title">Himalayan Cat</h6>
+                <p>Lorem ipsum, dolor...</p>
+            </div>
+        </div>
+        <div class="card" data-name="Persian-Cats">
+            <img src="per5.jpg" alt="Image 1" class="gallery-item">
+            <div class="card-body">
+                <h6 class="card-title">Persian Cat</h6>
+                <p>Lorem ipsum, dolor...</p>
+            </div>
+        </div>
+        <div class="card" data-name="Himalayan-Cats">
+            <img src="hama2.jpg" alt="Image 1" class="gallery-item">
+            <div class="card-body">
+                <h6 class="card-title">Himalayan Cat</h6>
+                <p>Lorem ipsum, dolor...</p>
+            </div>
+        </div>
+        <div class="card" data-name="Himalayan-Cats">
+            <img src="hama3.jpg" alt="Image 1" class="gallery-item">
+            <div class="card-body">
+                <h6 class="card-title">Himalayan Cat</h6>
+                <p>Lorem ipsum, dolor...</p>
+            </div>
+        </div>
+        <div class="card" data-name="Persian-Cats">
+            <img src="per11.jpg" alt="Image 1" class="gallery-item">
+            <div class="card-body">
+                <h6 class="card-title">Persian Cat</h6>
+                <p>Lorem ipsum, dolor...</p>
+            </div>
+        </div>
+        <div class="card" data-name="Persian-Cats">
+            <img src="cat9.jpg" alt="Image 1" class="gallery-item">
+            <div class="card-body">
+                <h6 class="card-title">Persian Cat</h6>
+                <p>Lorem ipsum, dolor...</p>
+            </div>
+        </div>
+        <div class="card" data-name="Persian-Cats">
+            <img src="cat10.jpg" alt="Image 1" class="gallery-item">
+            <div class="card-body">
+                <h6 class="card-title">Persian Cat</h6>
+                <p>Lorem ipsum, dolor...</p>
+            </div>
+        </div>
+        <div class="card" data-name="Himalayan-Cats">
+            <img src="hama4.jpg" alt="Image 1" class="gallery-item">
+            <div class="card-body">
+                <h6 class="card-title">Himalayan Cat</h6>
+                <p>Lorem ipsum, dolor...</p>
+            </div>
+        </div>
+        <div class="card" data-name="Persian-Cats">
+            <img src="cat12.jpg" alt="Image 1" class="gallery-item">
+            <div class="card-body">
+                <h6 class="card-title">Persian Cat</h6>
+                <p>Lorem ipsum, dolor...</p>
+            </div>
+        </div>
+        <div class="card" data-name="Persian-Cats">
+            <img src="per7.jpg" alt="Image 1" class="gallery-item">
+            <div class="card-body">
+                <h6 class="card-title">Persian Cat</h6>
+                <p>Lorem ipsum, dolor...</p>
+            </div>
+        </div>
+        <div class="card" data-name="Himalayan-Cats">
+            <img src="hama5.jpg" alt="Image 1" class="gallery-item">
+            <div class="card-body">
+                <h6 class="card-title">Himalayan Cat</h6>
+                <p>Lorem ipsum, dolor...</p>
+            </div>
+        </div>
+      
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
